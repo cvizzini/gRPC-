@@ -17,6 +17,7 @@ Please make sure to update tests as appropriate.
 
 ## Tutorial
 [Microsoft .Net Core gRPC](https://docs.microsoft.com/en-gb/aspnet/core/grpc/?view=aspnetcore-5.0)
+[Auth0 Securing gRPC .Net Core] (https://auth0.com/blog/securing-grpc-microservices-dotnet-core/)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
