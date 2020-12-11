@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "gRPC_dotNet5";
+
+package credit;
+
+service CreditRating {
+  rpc CheckCreditRequest (CreditRequest ) returns (CreditReply);
+}
+
+message CreditRequest  {
+  string name = 1;
+}
+
+message CreditReply {
+  string message = 1;
+}
